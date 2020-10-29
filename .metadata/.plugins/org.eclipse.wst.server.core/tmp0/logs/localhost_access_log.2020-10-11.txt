@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Oct/2020:15:14:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Oct/2020:15:14:36 +0530] "GET /spring-mvc-web-demo3-validations/ HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [11/Oct/2020:15:14:40 +0530] "GET /spring-mvc-web-demo3-validations/customerForm HTTP/1.1" 200 690
+0:0:0:0:0:0:0:1 - - [11/Oct/2020:15:14:53 +0530] "POST /spring-mvc-web-demo3-validations/customerDetails HTTP/1.1" 200 769
+0:0:0:0:0:0:0:1 - - [11/Oct/2020:15:15:02 +0530] "POST /spring-mvc-web-demo3-validations/customerDetails HTTP/1.1" 200 784
+0:0:0:0:0:0:0:1 - - [11/Oct/2020:15:15:11 +0530] "POST /spring-mvc-web-demo3-validations/customerDetails HTTP/1.1" 200 220

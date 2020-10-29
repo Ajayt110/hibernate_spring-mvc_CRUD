@@ -1,0 +1,36 @@
+package spring_mvc_hibernate.controller;
+
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import spring_mvc_hibernate.dao.CustomerDAO;
+import spring_mvc_hibernate.entity.Customer;
+import spring_mvc_hibernate.service.CustomerService;
+
+@Controller
+@RequestMapping("/customer")
+public class CustomerController {
+
+	//Inject DAO into Controller
+	
+	@Autowired
+	private CustomerService customerService;
+	
+	@GetMapping("/list")
+	public String listCustomers(Model model)
+	{
+		List<Customer> allCustomers=customerDAO.getCustomers();
+		
+		model.addAttribute("customers",allCustomers);
+		
+		return "list_customers";
+	}
+	
+
+}

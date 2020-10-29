@@ -1,0 +1,10 @@
+package spring_2_demo_annotations.annotations_demo;
+
+public class AnnotationsClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

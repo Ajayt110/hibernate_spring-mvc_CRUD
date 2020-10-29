@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer List</title>
+</head>
+<body>
+	
+	<div id="wrapper">
+		<div id="heading">
+			<h2>Customer Relationship Manager</h2>
+		</div>
+	</div>
+	<div id="container">
+		<div id="table">
+			<table>
+				<tr>
+					<th>FIRST NAME</th>
+					<th>LAST NAME</th>
+					<th>EMIAL ID</th>
+				</tr>
+				
+				<c:forEach var="customer" items="${customers}">
+				
+				</c:forEach>
+				<tr>
+				<tr>
+					<th>${customers.firstName}</th>
+					<th>${customers.lastName}</th>
+					<th>${customers.email}</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+</body>
+</html>

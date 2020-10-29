@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd">
+	   		
+	   		<!-- Properties File Loading -->
+	   		
+	   		<context:property-placeholder location="classpath:details.properties"/>
+	   		
+	   		<!-- Write your beans here --> 
+	   		
+	   		<bean id="theDietPlan"
+	   		class="spring_1_demoProject.coachingApp.PlayerDietPlan">
+	   		</bean>
+	   		
+	   		
+	   		
+	   	<!-- 
+	   			// This  is to test lifecycle in xml configuration  - - init-method &destroy-method
+	   	<bean id="theCoach"
+	   			class="spring_1_demoProject.coachingApp.TrackCoach"
+	   			
+	   			init-method="doStartup"
+	   			
+	   			destroy-method="doShutdown"
+	   			>
+	   			
+	   			<constructor-arg ref="theDietPlan" />
+	   			
+	   			</bean> -->
+	   
+		   <bean id="theCoach"
+		   			class="spring_1_demoProject.coachingApp.BaseballCoach">
+		   			
+		   			<constructor-arg ref="theDietPlan" />
+		   
+	   		</bean>
+	   		
+	   		<bean id="cricketCoach"
+	   			class="spring_1_demoProject.coachingApp.CricketCoach">
+	   			
+	   			<property name="dietPlan" ref="theDietPlan"></property>
+	   				   			
+	   			<!-- <property name="coachName" value="Jonty Rhodes"></property>
+	   			<property name="emailId" value="JRhodes@gmail.com"/> -->
+	   			
+	   			<!-- Pro	perties injection via file and parameters -->
+	   			<property name="coachName" value="${c.name}"/>
+	   			
+	   			<property name="emailId" value="${c.email}"/>
+	   
+	   		</bean>
+	   		
+	   		
+	   		
+</beans>

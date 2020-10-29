@@ -1,0 +1,18 @@
+package spring_mvc_hibernate.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import spring_mvc_hibernate.entity.Customer;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public List<Customer> getCustomers() {
+		
+		return null;
+	}
+
+}

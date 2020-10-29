@@ -1,0 +1,10 @@
+package spring_2_demo_annotations.annotations_demo;
+
+public interface Coach{
+
+	public String getPractice();
+
+	public String getRecreationPlanner();
+	
+	
+}

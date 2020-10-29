@@ -1,0 +1,7 @@
+127.0.0.1 - - [20/Oct/2020:00:00:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:00:32 +0530] "GET /spring-mvc-hibernate-web-customer-tracker/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:00:58 +0530] "GET /spring-mvc-hibernate-web-customer-tracker/customer/list HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:00:58 +0530] "GET /spring-mvc-hibernate-web-customer-tracker/resources/css/style.css HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:01:26 +0530] "GET /spring-mvc-hibernate-web-customer-tracker/customer/list HTTP/1.1" 200 1167
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:01:26 +0530] "GET /spring-mvc-hibernate-web-customer-tracker/resources/css/style.css HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [20/Oct/2020:00:01:26 +0530] "GET /favicon.ico HTTP/1.1" 404 762

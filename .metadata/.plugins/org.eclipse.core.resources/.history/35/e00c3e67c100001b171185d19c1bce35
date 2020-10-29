@@ -1,0 +1,14 @@
+package spring_2_demo_annotations.annotations_demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getPractice() {
+		
+		return "Do 100 hits with ball machine.";
+	}
+
+}

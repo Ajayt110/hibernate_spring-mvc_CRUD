@@ -1,0 +1,11 @@
+package spring_2_demo_annotations.annotations_demo;
+
+public class RecreationPlanner implements RecreationService{
+
+	@Override
+	public String recreation() {
+		// TODO Auto-generated method stub
+		return "you can watch Netflix and chill.";
+	}
+
+}

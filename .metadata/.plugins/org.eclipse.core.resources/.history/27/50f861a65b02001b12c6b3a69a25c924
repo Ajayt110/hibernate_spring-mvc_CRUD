@@ -1,0 +1,40 @@
+package spring_2_demo_annotations.annotations_demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TennisCoach implements Coach {
+
+	public RecreationPlanner recreationPlanner;
+	
+	public TennisCoach() {
+		
+	}
+	
+	@Autowired
+	public void setRecreationPlanner(RecreationPlanner theRecreationPlanner) {
+		recreationPlanner = theRecreationPlanner;
+	}
+	
+	
+	/*
+	 * @Autowired public TennisCoach(RecreationPlanner theRecreation){
+	 * 
+	 * recreationPlanner=theRecreation;
+	 * 
+	 * }
+	 */
+	
+	public String getRecreationPlanner() {
+		return recreationPlanner.recreation();
+	}
+	
+	
+	@Override
+	public String getPractice() {
+		
+		return "Do 100 hits with ball machine.";
+	}
+
+}

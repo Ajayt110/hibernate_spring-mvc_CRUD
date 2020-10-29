@@ -1,0 +1,10 @@
+#Tomcat publish data
+#Thu Oct 22 23:43:03 IST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo2\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo2\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo3-validations\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-hibernate-web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-hibernate-web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo3-validations\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ajaya\\Documents\\A\ Programs\ PGP\\Java\\Hibernate_Spring\\spring-mvc-web-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.8.RELEASE-sources.jar

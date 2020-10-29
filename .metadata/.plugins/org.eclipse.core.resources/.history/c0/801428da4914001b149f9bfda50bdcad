@@ -1,0 +1,43 @@
+package spring_mvc_hibernate.dao;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+import spring_mvc_hibernate.entity.Customer;
+
+
+@Component
+public class CustomerDAOImpl implements CustomerDAO {
+
+	//Inject Hibernate Session
+	
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Override
+	public List<Customer> getCustomers() {
+		
+		//get current session
+		
+		Session session=sessionFactory.getCurrentSession();
+		
+		//Get Query
+		
+		Query<Customer> theQuery = session.createQuery("from Customer",Customer.class);
+		//query to result list
+		List<Customer> customers=theQuery.getResultList();
+		
+		//return result
+
+		return customers;
+	}
+
+}

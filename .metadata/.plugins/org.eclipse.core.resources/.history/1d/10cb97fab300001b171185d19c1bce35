@@ -1,0 +1,11 @@
+package spring_2_demo_annotations.annotations_demo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getPractice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
